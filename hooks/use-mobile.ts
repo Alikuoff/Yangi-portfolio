@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react"
 
-export function useMobileMenu() {
+export const useMobileMenu = () => {
   const [isMobile, setIsMobile] = useState(false)
 
   useEffect(() => {
