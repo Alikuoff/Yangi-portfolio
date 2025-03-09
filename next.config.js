@@ -1,8 +1,8 @@
 module.exports = {
   reactStrictMode: true,
-  swcMinify: true,
+  swcMinify: true, // Move swcMinify to the top level
   experimental: {
-    // Enable build caching
-    outputFileTracing: true,
+    // Remove unrecognized keys
+    // outputFileTracing: true,
   },
 }
